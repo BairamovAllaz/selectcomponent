@@ -1,0 +1,46 @@
+.FirstDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container { 
+    width: 70%;
+    height: 30%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color:aliceblue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pTaker:hover { 
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.ShowMain { 
+   display: flex;
+}
+.pTaker { 
+    display: flex;
+}
+.pTaker p { 
+    width: 200px;
+}
+
+.IconExpand { 
+    width: 25px;
+    height: 25px;
+}
+
+
+.ExpanButton { 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.pTaker.clicked {
+    background-color: lightgreen;
+}
